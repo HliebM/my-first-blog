@@ -4,6 +4,11 @@
         <titl>Blog</titl>
     </head>
     <body>
-        <div class=""></div>
+        <div class="">
+            {% for post in posts %}
+                {{post.title}}
+            <br>
+            {% endfor %}
+        </div>
     </body>
 </html>
