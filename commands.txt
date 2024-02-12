@@ -1,0 +1,9 @@
+In Editor:
+    git status
+    git add .
+    git status
+    git commit -m "Komentar"
+    git push
+PythoAnywhere:
+    cd ~/Hlie6.pythonanywhere.com
+    git pull
