@@ -1,7 +1,8 @@
 body{
-    padding: 15px
+    padding: 15px;
+    background-color: #eed4bf;
 }
-.header__title,h2{
+.header__title{
     background-color: orange;
     color: white;
     font-family: 'Lobster', cursive;
@@ -35,5 +36,49 @@ body{
 .btn{
     background-color: #a7a4a6;
     width: 100px;
-    height: 20px;
+    height: 40px;
+    transition: all .5s;
+}
+.btn:hover{
+    background-color: #4b4848;
+    color: white;
+}
+.top-menu{
+    position: absolute;
+    top: 70px;
+    background-color: #a76a15;
+    border-radius: 10px;
+    width: 50px;
+    padding: 5px;
+    text-align: center;
+    transition: all .5s;
+}
+.top-menu.new{
+    right: 25px;
+}.top-menu.edit{
+    right: 80px;
+}
+.top-menu:hover{
+    background-color: #80500a;
+}
+h2{
+    color: black;
+    font-family: 'Lobster', cursive;
+    font-weight: 900;
+    font-size: 36px;
+}
+.post__container{
+    background-color: #eedad1;
+    border-radius: 10px;
+}
+.post__container a{
+    color: black;
+}
+.post__container a:hover{
+    color: #4f4f4f;
+}
+.top-menu a{
+    color: white;
+}.top-menu a:hover{
+    color: white;
 }

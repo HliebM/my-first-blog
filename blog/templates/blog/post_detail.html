@@ -2,6 +2,7 @@
 
 {% block content %}
     <div class="post__container">
+        <div class="top-menu edit"><a href="{% url 'post_edit' %}">Edit</a></div>
         <div class="post__detail-publish-Date">published: {{post.published_date}}</div>
         <div class="post__title">{{post.title}}</div>
         <div class="post__text">{{post.text}}</div>
