@@ -7,3 +7,6 @@ In Editor:
 PythoAnywhere:
     cd ~/Hlie6.pythonanywhere.com
     git pull
+
+    workon hlie6.pythonanywhere.com
+    python manage.py collectstatic

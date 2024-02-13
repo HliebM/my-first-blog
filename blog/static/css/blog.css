@@ -1,7 +1,7 @@
 body{
     padding: 15px
 }
-.header{
+.header__title,h2{
     background-color: orange;
     color: white;
     font-family: 'Lobster', cursive;
@@ -29,6 +29,11 @@ body{
     position: absolute;
     right: 10px
 }
-
-
-
+.header__title a{
+    color: white;
+}
+.btn{
+    background-color: #a7a4a6;
+    width: 100px;
+    height: 20px;
+}

@@ -9,7 +9,10 @@
     <body>
         <div class="wrapper">
             <div class="header">
-                Django Blog
+                <div class="header__title">
+                    <a href="/">Django Blog</a>
+                </div>
+                <div class="top-menu"><a href="{% url 'post_new' %}">New</a></div>
             </div>
             <div class="body">
                 {% block content %}
