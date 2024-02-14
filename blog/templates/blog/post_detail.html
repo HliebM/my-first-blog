@@ -6,6 +6,6 @@
         <div class="post__detail-publish-Date">published: {{post.published_date}}</div>
         <div class="post__title">{{post.title}}</div>
         <div class="post__text">{{post.text}}</div>
-        <div class="post__comment">{{post.comment}}</div>
+        <a href="{% url 'post_comment' pk=post.pk %}"><div class="post__comment">{{post.comment}}</div></a>
     </div>
 {% endblock %}
