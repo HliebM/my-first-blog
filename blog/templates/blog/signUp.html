@@ -1,0 +1,15 @@
+{% extends 'blog/base.html' %}
+
+{% block content %}
+    <h2>Create an account</h2>
+    <form method="POST" class="auth-form">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit" class="save btn btn-default">Create</button>
+        <br>
+        <br>
+        <button class="btn"><a href="{% url 'signIn' %}">Login</a></button>
+    </form>
+{% endblock %}
+
+
