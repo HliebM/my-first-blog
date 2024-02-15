@@ -9,6 +9,7 @@ class Post(models.Model):
     comment = models.TextField(default='Add your comment')
     created_date = models.DateTimeField(default=timezone.now)
     published_date = models.DateTimeField(blank=True, null=True)
+    likes = models.BigIntegerField(default=0)
 
     def publish(self):
         self.published_date = timezone.now()
